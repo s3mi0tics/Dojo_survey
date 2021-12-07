@@ -1,0 +1,56 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* reset */
+
+*{
+    font-family: ;
+}
+
+/* common flexbox classes */
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+/* /common flexbox classes */
+
+/* common font classes */
+.bolder{
+    font-weight: bolder;
+}
+/* element styles */
+button{
+    padding: 5px;
+}
+input{
+
+}
+
+/*body styles */
+.nav{
+    background-color: #EEEEEE;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    background-color: #AAAAAA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
